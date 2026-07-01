@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#2a2620"/>
+      <stop offset="55%" stop-color="#16151a"/>
+      <stop offset="100%" stop-color="#0b0b0e"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g)"/>
+  <circle cx="680" cy="430" r="260" fill="#c9a24b" opacity="0.10"/>
+  <text x="960" y="560" font-family="Georgia, serif" font-size="42" fill="#4a463d" text-anchor="middle" letter-spacing="6">[ HERO FOTOĞRAFI ]</text>
+  <text x="960" y="612" font-family="Inter, sans-serif" font-size="20" fill="#3a382f" text-anchor="middle" letter-spacing="3">1920 × 1080 · assets/img/hero.jpg</text>
+</svg>

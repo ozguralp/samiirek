@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO (seo_ve_kesfedilebilirlik_rehberi.md ile uyumlu) ===== -->
+  <title>Sami İrek — Türkçe Pop / Akustik Sanatçı</title>
+  <meta name="description" content="Sami İrek resmi web sitesi. Türkçe pop ve akustik sanatçı. Şarkılar, videolar, konserler ve iletişim." />
+  <link rel="canonical" href="https://samiirek.com/" />
+  <meta property="og:type" content="music.musician" />
+  <meta property="og:title" content="Sami İrek — Resmi Web Sitesi" />
+  <meta property="og:description" content="Türkçe pop ve akustik sanatçı Sami İrek'in resmi sitesi." />
+  <meta property="og:url" content="https://samiirek.com/" />
+  <meta property="og:image" content="https://samiirek.com/assets/img/hero.jpg" />
+  <meta name="theme-color" content="#0d0d10" />
+
+  <!-- Google Knowledge Panel için yapılandırılmış veri. sameAs = tüm resmi profiller. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "name": "Sami İrek",
+    "genre": ["Turkish Pop", "Acoustic", "Singer-Songwriter"],
+    "url": "https://samiirek.com/",
+    "image": "https://samiirek.com/assets/img/hero.jpg",
+    "sameAs": [
+      "https://open.spotify.com/artist/00Bq1phnHT8gSW1iBHIpzM",
+      "https://music.apple.com/tr/artist/6781411757",
+      "https://www.instagram.com/sami_irek",
+      "https://www.youtube.com/@samiirek2604"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css?v=6" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">SAMİ İREK</a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#bio">Hakkında</a>
+        <a href="#music">Müzik</a>
+        <a href="#shows">Konserler</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+      <button class="nav__burger" id="burger" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero hero--noimg" id="hero">
+    <!-- Hero görseli için YATAY (geniş) bir foto bulunacak. Bulununca:
+         class'tan "hero--noimg" kaldır, aşağıdaki div'e background-image ekle. -->
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">RESMİ WEB SİTESİ</p>
+      <h1 class="hero__title">Sami İrek</h1>
+      <p class="hero__tagline">Türkçe pop — sözü ve duyguyu ön plana alan şarkılar.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#music">Şarkıları Dinle</a>
+        <a class="btn btn--ghost" href="#bio">Hakkında</a>
+      </div>
+      <div class="hero__socials">
+        <a href="https://open.spotify.com/artist/00Bq1phnHT8gSW1iBHIpzM" target="_blank" rel="noopener">Spotify</a>
+        <a href="https://music.apple.com/tr/artist/6781411757" target="_blank" rel="noopener">Apple Music</a>
+        <!-- YouTube: Sami kendi kanalını koyacak; şimdilik pasif -->
+        <a href="#" class="is-disabled" aria-disabled="true" onclick="return false;">YouTube</a>
+        <a href="https://www.instagram.com/sami_irek" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <a href="#bio" class="hero__scroll" aria-label="Aşağı kaydır">↓</a>
+  </section>
+
+  <!-- ============ BIO ============ -->
+  <section class="section section--bio" id="bio">
+    <div class="section__head">
+      <h2 class="section__title">Hakkında</h2>
+    </div>
+    <div class="bio__grid">
+      <div class="bio__photo">
+        <img src="assets/img/portrait.jpg" alt="Sami İrek" />
+      </div>
+      <div class="bio__text">
+        <p class="bio__lead">Sami İrek, sözü ve duyguyu merkeze alan şarkılarıyla dinleyicisine sade ve içten bir müzik sunmaktadır.</p>
+        <p>Hem kendi seslendirdiği eserlerle hem de farklı sanatçılar için kaleme aldığı sözlerle üretmeye devam etmektedir. Şarkılarında gündelik hayatın içinden gelen samimi bir anlatımı ön planda tutmaktadır.</p>
+        <p>Müzik çalışmalarını <strong>Sami İrek Sosyal Akademi</strong> çatısı altında sürdürmektedir.</p>
+        <a class="link-arrow" href="#contact">İletişim →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MUSIC ============ -->
+  <section class="section section--music" id="music">
+    <div class="section__head">
+      <h2 class="section__title">Müzik</h2>
+    </div>
+
+    <!-- Alt bölüm: Kendi Söyledikleri -->
+    <h3 class="music__subtitle">Kendi Söyledikleri</h3>
+    <div class="music__grid">
+      <article class="release">
+        <div class="release__cover">
+          <img src="assets/img/cover-beginnings.jpg" alt="Beginnings" />
+          <a class="release__play" href="https://open.spotify.com/artist/00Bq1phnHT8gSW1iBHIpzM" target="_blank" rel="noopener" aria-label="Dinle">▶</a>
+        </div>
+        <h4 class="release__name">Beginnings</h4>
+        <p class="release__meta">Single · 2026</p>
+        <div class="release__links">
+          <a href="https://open.spotify.com/artist/00Bq1phnHT8gSW1iBHIpzM" target="_blank" rel="noopener">Spotify</a>
+          <a href="https://music.apple.com/tr/artist/6781411757" target="_blank" rel="noopener">Apple Music</a>
+        </div>
+      </article>
+    </div>
+
+    <!-- Alt bölüm: Yorumlanan Eserleri -->
+    <h3 class="music__subtitle">Yorumlanan Eserleri</h3>
+    <div class="music__grid">
+      <article class="release">
+        <div class="release__cover">
+          <img src="assets/img/cover-hadigel.jpg" alt="Hadi Gel — Aslızen" />
+          <a class="release__play" href="https://open.spotify.com/album/2uwAvBhHkPiPTrX9OPU8Sf" target="_blank" rel="noopener" aria-label="Dinle">▶</a>
+        </div>
+        <h4 class="release__name">Hadi Gel</h4>
+        <p class="release__meta">Aslızen · Söz: Sami İrek · 2026</p>
+        <div class="release__links">
+          <a href="https://open.spotify.com/album/2uwAvBhHkPiPTrX9OPU8Sf" target="_blank" rel="noopener">Spotify</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ SHOWS / TOUR ============ -->
+  <section class="section section--shows" id="shows">
+    <div class="section__head">
+      <h2 class="section__title">Konserler</h2>
+    </div>
+    <ul class="shows__list">
+      <li class="show">
+        <span class="show__date">
+          <span class="show__day">25</span>
+          <span class="show__mon">TEM 2026</span>
+        </span>
+        <span class="show__info">
+          <span class="show__title">Sisa Project Konseri</span>
+          <span class="show__venue">Bademler Sanat Köyü · İzmir</span>
+          <span class="show__extra">Cumartesi · 21:00</span>
+        </span>
+        <a class="show__cta" href="https://www.bubilet.com.tr/izmir/etkinlik/sisa-project-konseri" target="_blank" rel="noopener">Bilet Al</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--contact" id="contact">
+    <div class="section__head">
+      <h2 class="section__title">İletişim</h2>
+    </div>
+    <div class="contact__grid">
+      <div class="contact__block">
+        <h3>Konser &amp; İş Birliği</h3>
+        <a href="mailto:samiirek@gmail.com" class="contact__mail">samiirek@gmail.com</a>
+      </div>
+      <div class="contact__block">
+        <h3>Sosyal Medya</h3>
+        <div class="contact__socials">
+          <a href="https://open.spotify.com/artist/00Bq1phnHT8gSW1iBHIpzM" target="_blank" rel="noopener">Spotify</a>
+          <a href="https://music.apple.com/tr/artist/6781411757" target="_blank" rel="noopener">Apple Music</a>
+          <a href="#" class="is-disabled" aria-disabled="true" onclick="return false;">YouTube</a>
+          <a href="https://www.instagram.com/sami_irek" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p class="footer__brand">SAMİ İREK</p>
+    <p class="footer__copy">© <span id="year"></span> Sami İrek · Tüm hakları saklıdır.</p>
+    <a href="#hero" class="footer__top">Yukarı ↑</a>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
