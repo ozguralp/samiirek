@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//samiirek.com//Konser//TR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:sisa-project-2026-07-25@samiirek.com
+DTSTAMP:20260702T000000Z
+DTSTART:20260725T180000Z
+DTEND:20260725T210000Z
+SUMMARY:Sisa Project by Sami İrek
+DESCRIPTION:Sisa Project by Sami İrek konseri. Bilet: https://www.bubilet.com.tr/izmir/etkinlik/sisa-project-konseri
+LOCATION:Bademler Sanat Köyü, İzmir
+URL:https://www.bubilet.com.tr/izmir/etkinlik/sisa-project-konseri
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1b22"/><stop offset="1" stop-color="#0d0d10"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#p)"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#c9a24b" stroke-width="1" opacity="0.4"/>
+  <text x="400" y="430" font-family="Georgia, serif" font-size="46" fill="#ecebe8" text-anchor="middle">Sisa Project</text>
+  <text x="400" y="480" font-family="Georgia, serif" font-size="26" fill="#c9a24b" text-anchor="middle">by Sami İrek</text>
+  <text x="400" y="560" font-family="Inter, sans-serif" font-size="18" fill="#9a978f" text-anchor="middle" letter-spacing="2">25 TEMMUZ 2026</text>
+  <text x="400" y="590" font-family="Inter, sans-serif" font-size="16" fill="#55534b" text-anchor="middle">Bademler Sanat Köyü · İzmir</text>
+  <text x="400" y="930" font-family="Inter, sans-serif" font-size="13" fill="#3a382f" text-anchor="middle" letter-spacing="2">[ KONSER AFİŞİ · konser-sisa-project.jpg ]</text>
+</svg>
