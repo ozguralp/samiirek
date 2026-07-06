@@ -7,15 +7,14 @@ window.addEventListener('scroll', onScroll, { passive: true });
 
 const burger = document.getElementById('burger');
 const navLinks = document.getElementById('navLinks');
-burger.addEventListener('click', () => {
-  burger.classList.toggle('open');
-  navLinks.classList.toggle('open');
-});
+const setMenu = (open) => {
+  burger.classList.toggle('open', open);
+  navLinks.classList.toggle('open', open);
+  document.body.classList.toggle('nav-open', open);
+};
+burger.addEventListener('click', () => setMenu(!navLinks.classList.contains('open')));
 navLinks.querySelectorAll('a').forEach(a =>
-  a.addEventListener('click', () => {
-    burger.classList.remove('open');
-    navLinks.classList.remove('open');
-  })
+  a.addEventListener('click', () => setMenu(false))
 );
 
 const io = new IntersectionObserver(
